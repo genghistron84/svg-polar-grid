@@ -6,6 +6,6 @@ The script allows you to set:
 - the width and height of the pattern in inches, 
 - the number of concentric circles to generate, 
 - the number of angled lines (divisions),
-- whether to draw half or quarter inch concentric lines
+- whether to draw half or quarter inch concentric circles
 
 Check out the [demo](https://genghistron84.github.io/svg-polar-grid/).
