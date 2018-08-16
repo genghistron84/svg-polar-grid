@@ -31,7 +31,7 @@ function generate_svg()
   qhp = q_height * 96;	  
   path = '';
 
-  for(i = 1; i <= q_width; i++)
+  /*for(i = 1; i <= q_width; i++)
   {
     path += '<path style="opacity:1;fill:none;fill-opacity:1;stroke:#eeeeee;stroke-width:0.96;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 0 ' + ((96 * i) - 48) + ' L ' + (96 * q_width) + ' ' + ((96 * i) - 48) + '" />';
     path += '<path style="opacity:1;fill:none;fill-opacity:1;stroke:#eeeeee;stroke-width:0.96;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M ' + ((96 * i) - 48) + ' 0 L ' + ((96 * i) - 48) + ' ' + (96 * q_height) + '" />';
@@ -41,7 +41,7 @@ function generate_svg()
       path += '<path style="opacity:1;fill:none;fill-opacity:1;stroke:#dddddd;stroke-width:0.96;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 0 ' + (96 * i) + ' L ' + (96 * q_width) + ' ' + (96 * i) + '" />';    
       path += '<path style="opacity:1;fill:none;fill-opacity:1;stroke:#dddddd;stroke-width:0.96;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M ' + (96 * i) + ' 0 L ' + (96 * i) + ' ' + (96 * q_height) + '" />';
     }
-  }
+  }*/
 
   //draw angled lines
   for(i = 1; i <= num_divisions; i++)
