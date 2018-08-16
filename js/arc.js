@@ -132,9 +132,7 @@ function generate_svg()
   inkscape:window-x="-8" \
   inkscape:window-y="-8" \
   inkscape:window-maximized="1" \
-  inkscape:current-layer="svg2" />   \
-  <path style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.96;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"  \
-  d="M ' + qwp + ' 0 L 0 0  L 0 ' + qhp + ' L ' + qwp + ' ' + qhp + ' Z" /> \
+  inkscape:current-layer="svg2" /> \
   ' + path + ' \
   </svg>';
 
